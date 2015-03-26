@@ -1,0 +1,4 @@
+Am verificat cu un DFS(1) pentru a verifica cazul de imposibiltate de a ajunge la nodul N si in loc sa verific la final doar viz[n]==true am verificat pentru toate nodurile,asadar am picat testele in care se putea ajunge de la 1 la N dar graful nu era conex.
+
+
+OBS : o optimizare de timp (nu era necesara neaparat pt accepted) fata de sursa trimisa in concurs a fost ca in loc sa vad timpul minim de ajunge in nodul x in intervalul de plecare P,trebuia doar sa calculez timpul minim de a ajunge in nodul x,nu avea sens sa mai calculez si pentru intervalele mai indepartate de timp.
